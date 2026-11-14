@@ -2,4 +2,21 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Shared palette. Keep these names stable for all feature screens. -->
+    <color name="primary">#3B5BDB</color>
+    <color name="text_main">#1F2430</color>
+    <color name="text_sub">#5B6275</color>
+    <color name="text_hint">#8A90A2</color>
+    <color name="line">#DDE1EA</color>
+    <color name="bg">#F6F7FB</color>
+    <color name="card">#FFFFFF</color>
+
+    <!-- Badge foreground/background pairs sampled from the Figma screenshots. -->
+    <color name="badge_kice_text">@color/primary</color>
+    <color name="badge_kice_bg">#E7ECFF</color>
+    <color name="badge_education_text">#138A5E</color>
+    <color name="badge_education_bg">#E3F7EE</color>
+    <color name="badge_private_text">#C2620A</color>
+    <color name="badge_private_bg">#FFF1E0</color>
 </resources>

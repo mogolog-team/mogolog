@@ -1,9 +1,42 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Mogolog" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+    <!-- The supplied designs use one light palette, including in system night mode. -->
+    <style name="Base.Theme.Mogolog" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/card</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorOnSecondary">@color/card</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorOnSurface">@color/text_main</item>
+        <item name="colorOnSurfaceVariant">@color/text_sub</item>
+        <item name="colorOutline">@color/line</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+        <item name="android:textColorSecondary">@color/text_sub</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
 
     <style name="Theme.Mogolog" parent="Base.Theme.Mogolog" />
+
+    <style name="TextTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_main</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_main</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">@dimen/text_size_label</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
 </resources>
