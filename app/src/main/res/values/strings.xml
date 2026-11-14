@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">mogolog</string>
+    <string name="tab_home">홈</string>
+    <string name="tab_records">기록</string>
+    <string name="tab_community">커뮤니티</string>
+    <string name="title_home">모고로그</string>
+    <string name="title_exam_list">시험 기록</string>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rounded-square placeholder icon used by all three tabs in the supplied Figma screens. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/text_hint"
+        android:pathData="M8,0 H16 Q24,0 24,8 V16 Q24,24 16,24 H8 Q0,24 0,16 V8 Q0,0 8,0 Z" />
+</vector>
